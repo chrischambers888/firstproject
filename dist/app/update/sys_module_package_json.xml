@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<record_update>
+  <sys_module action="INSERT_OR_UPDATE">
+    <sys_scope>1f46fa7c83310210039831b6feaad33e</sys_scope>
+    <path>x_715792_pdi_1/firstproject/0.0.1/package.json</path>
+    <external_source>false</external_source>
+    <content><![CDATA[{
+    "name": "firstproject",
+    "version": "0.0.1",
+    "description": "Testing Now-SDK in Washington on my PDI",
+    "license": "UNLICENSED",
+    "contributors": [],
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk deploy"
+    },
+    "now": {
+        "scope": "x_715792_pdi_1",
+        "scopeId": "1f46fa7c83310210039831b6feaad33e",
+        "moduleDir": "src"
+    },
+    "devDependencies": {
+        "@servicenow/glide": "^25.0.3",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "*"
+    }
+}]]></content>
+  </sys_module>
+</record_update>
